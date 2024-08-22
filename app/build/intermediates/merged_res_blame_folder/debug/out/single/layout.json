@@ -1,0 +1,498 @@
+[
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/newrecharge.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/newrecharge.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_product_detail.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/category.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/category.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/bank.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/bank.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/dlock.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/dlock.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/noticelist.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/noticelist.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/develop.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/develop.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_main.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/cropm.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/cropm.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/include_cart_total.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/include_cart_total.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/post_detail.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/post_detail.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/webl.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/webl.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/ft_main.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/ft_main.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/offer.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/offer.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/frag1_layout.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/frag1_layout.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/pin.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/pin.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/nav_header_main.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/list_internet.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/list_internet.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/frag2_layout.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/frag2_layout.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/new_uidi_three.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/new_uidi_three.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_notification_detail.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_notification_detail.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/item_cart.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/item_cart.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/dialogs.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/dialogs.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/cemera_d.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/cemera_d.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/custom_spinner_dropdown_item.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/custom_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/item_post.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/item_post.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/slider_fourth.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/slider_fourth.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/addpic.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/addpic.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/listview_main_r.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/listview_main_r.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/fragment_recent.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/fragment_recent.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_splash.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/update_post.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/update_post.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/item_help.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/item_help.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/password.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/password.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/display_posts.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/display_posts.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/custom_dialog_view.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/custom_dialog_view.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/user_category.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/user_category.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/bngqrpg.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/bngqrpg.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/get_posts.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/get_posts.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/toolbar.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/toolbar.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/include_row_separator.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/include_row_separator.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/permission_close.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/permission_close.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_upload_post.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_upload_post.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_register.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/listview_item.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/listview_item.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/fragment_profile.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/new_uidi_two.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/new_uidi_two.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/spinner_dropdown_item.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/popup_notice.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/popup_notice.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/confirm.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/confirm.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/mobilebank.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/mobilebank.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/dialog_add_category.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/dialog_add_category.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/pin_layout.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/pin_layout.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/internet_main.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/internet_main.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/tricket_main.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/tricket_main.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/service_main.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/service_main.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/at_change_location.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/at_change_location.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/app_bar_main.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_web.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_web.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/all_slider.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/all_slider.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/sample_recyclarview.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/sample_recyclarview.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/slider_layout.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/slider_layout.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/item_category.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/item_category.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/custom_progress.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/custom_progress.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/transfer.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/transfer.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/content_main.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/banktransfer.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/banktransfer.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/include_empty_cart.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/include_empty_cart.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/noticeboard.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/noticeboard.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/include_empty_history.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/include_empty_history.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_login_page.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/fragment_home.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/spinner_item.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/fragment_rec.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/fragment_rec.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_product.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_product.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/new_tricket.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/new_tricket.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/tricket_main_read.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/tricket_main_read.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_cart.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_cart.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/payment.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/payment.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/listview_main.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/listview_main.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_history.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/myprofile.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/myprofile.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/my_message.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/my_message.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/confirmbank.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/confirmbank.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/dialog.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/dialog.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/third_recyclarview.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/third_recyclarview.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/content_custom.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/content_custom.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/payi.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/payi.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/confirmbill.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/confirmbill.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/list_service.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/list_service.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/order.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/order.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/fragment_contact_list.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/fragment_contact_list.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/display_activity.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/display_activity.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/keyboard.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/keyboard.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/item_bottom_sheet.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/item_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_help.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_help.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/my2.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/my2.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/add.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/add.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/twostep.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/twostep.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/item_product.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/tricket_main_list_read.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/tricket_main_list_read.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_maintwo.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_maintwo.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/item_history.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/editr.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/editr.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/device.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/device.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/custom_spinner_item.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/custom_spinner_item.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/pinc.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/pinc.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/pattern_lock.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/pattern_lock.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/confirm2.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/confirm2.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/custom_tab.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/custom_tab.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/smsac.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/smsac.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/tricket_main_list.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/tricket_main_list.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/input_dialog.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/input_dialog.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_image_detail.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_image_detail.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/tact.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/tact.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/new_uidi_one.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/new_uidi_one.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/post_item_category.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/post_item_category.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/gird_internet.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/gird_internet.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_checkout.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_checkout.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/operator.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/operator.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/activity_mainc.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/activity_mainc.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/item_contact.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/item_contact.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/listview_item_r.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/listview_item_r.xml"
+    },
+    {
+        "merged": "com.v5foradnroid.userapp-mergeDebugResources-58:/layout/add_balance_type.xml",
+        "source": "com.v5foradnroid.userapp-main-61:/layout/add_balance_type.xml"
+    }
+]

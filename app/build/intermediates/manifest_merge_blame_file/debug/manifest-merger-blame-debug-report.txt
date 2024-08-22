@@ -1,0 +1,1383 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.v5foradnroid.userapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:9:5-81
+15-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:10:5-79
+16-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:11:5-67
+17-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:12:5-79
+18-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:13:5-76
+19-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:13:22-73
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:14:5-80
+20-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:14:22-77
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:15:5-81
+21-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:16:5-65
+22-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:16:22-62
+23    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+23-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:17:5-72
+23-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:17:22-69
+24    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+24-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:18:5-74
+24-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:18:22-71
+25    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+25-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:19:5-77
+25-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:19:22-74
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:20:5-68
+26-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:20:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:21:5-82
+27-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:21:22-79
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:22:5-110
+28-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:22:22-107
+29
+30    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+31    <permission
+31-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:10:5-12:47
+32        android:name="com.v5foradnroid.userapp.permission.C2D_MESSAGE"
+32-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:11:9-63
+33        android:protectionLevel="signature" />
+33-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:12:9-44
+34
+35    <uses-permission android:name="com.v5foradnroid.userapp.permission.C2D_MESSAGE" />
+35-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:14:5-79
+35-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:14:22-76
+36    <!--
+37 Required so the device vibrates on receiving a push notification.
+38         Vibration settings of the device still apply.
+39    -->
+40    <uses-permission android:name="android.permission.VIBRATE" />
+40-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:24:5-66
+40-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:24:22-63
+41    <!--
+42 Use to restore notifications the user hasn't interacted with.
+43     They could be missed notifications if the user reboots their device if this isn't in place.
+44    -->
+45    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+45-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:29:5-81
+45-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:29:22-78
+46    <!-- Samsung -->
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+47-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:31:5-86
+47-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:31:22-83
+48    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+48-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:32:5-87
+48-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:32:22-84
+49    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+49-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:33:5-81
+49-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:33:22-78
+50    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+50-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:34:5-83
+50-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:34:22-80
+51    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+51-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:35:5-88
+51-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:35:22-85
+52    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+52-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:36:5-92
+52-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:36:22-89
+53    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+53-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:37:5-84
+53-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:37:22-81
+54    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+54-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:38:5-83
+54-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:38:22-80
+55    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+55-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:39:5-91
+55-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:39:22-88
+56    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+56-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:40:5-92
+56-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:40:22-89
+57    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+57-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:41:5-93
+57-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:41:22-90
+58    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+58-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:42:5-73
+58-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:42:22-70
+59    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+59-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:43:5-82
+59-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:43:22-79
+60    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+60-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:44:5-83
+60-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:44:22-80
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+61-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:45:5-88
+61-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:45:22-85
+62    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+62-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:46:5-89
+62-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:46:22-86
+63    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+63-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0bf77768df3317cc5a2653ba7d97a604\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+63-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0bf77768df3317cc5a2653ba7d97a604\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+64    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+64-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+64-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+65
+66    <permission
+66-->[androidx.core:core:1.13.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f98f30e0714dd0886893f6569a3d92a9\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+67        android:name="com.v5foradnroid.userapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+67-->[androidx.core:core:1.13.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f98f30e0714dd0886893f6569a3d92a9\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+68        android:protectionLevel="signature" />
+68-->[androidx.core:core:1.13.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f98f30e0714dd0886893f6569a3d92a9\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+69
+70    <uses-permission android:name="com.v5foradnroid.userapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+70-->[androidx.core:core:1.13.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f98f30e0714dd0886893f6569a3d92a9\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+70-->[androidx.core:core:1.13.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f98f30e0714dd0886893f6569a3d92a9\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+71
+72    <application
+72-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:24:5-355:19
+73        android:name="com.v5foradnroid.userapp.activities.MyApplication"
+73-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:25:9-49
+74        android:allowBackup="true"
+74-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:26:9-35
+75        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+75-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:27:9-77
+76        android:dataExtractionRules="@xml/data_extraction_rules"
+76-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:28:9-65
+77        android:debuggable="true"
+78        android:extractNativeLibs="false"
+79        android:fullBackupContent="@xml/backup_rules"
+79-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:29:9-54
+80        android:icon="@mipmap/ic_launcher"
+80-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:30:9-43
+81        android:label="@string/app_name"
+81-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:31:9-41
+82        android:requestLegacyExternalStorage="true"
+82-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:32:9-52
+83        android:supportsRtl="true"
+83-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:33:9-35
+84        android:testOnly="true"
+85        android:theme="@style/Theme.ecomflexi"
+85-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:34:9-47
+86        android:usesCleartextTraffic="true" >
+86-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:35:9-44
+87        <activity
+87-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:37:9-39:40
+88            android:name="com.v5foradnroid.userapp.activities.BngQrPg"
+88-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:38:13-47
+89            android:exported="false" />
+89-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:39:13-37
+90        <activity
+90-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:40:9-42:40
+91            android:name="com.v5foradnroid.userapp.sliderAdapter.PayAmount"
+91-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:41:13-52
+92            android:exported="false" />
+92-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:42:13-37
+93        <activity
+93-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:43:9-45:40
+94            android:name="com.v5foradnroid.userapp.sliderAdapter.PayAct"
+94-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:44:13-49
+95            android:exported="false" />
+95-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:45:13-37
+96
+97        <provider
+98            android:name="androidx.core.content.FileProvider"
+98-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:48:13-62
+99            android:authorities="com.v5foradnroid.userapp.fileprovider"
+99-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:49:13-72
+100            android:exported="false"
+100-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:50:13-37
+101            android:grantUriPermissions="true" >
+101-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:51:13-47
+102            <meta-data
+102-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:52:13-55:58
+103                android:name="android.support.FILE_PROVIDER_PATHS"
+103-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:53:17-67
+104                android:exported="true"
+104-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:54:17-40
+105                android:resource="@xml/provider_paths" />
+105-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:55:17-55
+106        </provider>
+107
+108        <meta-data
+108-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:58:9-61:35
+109            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+109-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:59:13-70
+110            android:exported="true"
+110-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:60:13-36
+111            android:value="ocr" />
+111-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:61:13-32
+112
+113        <receiver
+113-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:63:9-70:20
+114            android:name="com.onesignal.GcmBroadcastReceiver"
+114-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:64:13-62
+115            android:exported="false" >
+115-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:65:13-37
+116            <intent-filter>
+116-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:66:13-69:29
+117                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+117-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:67:17-81
+117-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:67:25-78
+118
+119                <category android:name="com.v5foradnroid.userapp" />
+119-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:68:27-58
+120            </intent-filter>
+121        </receiver>
+122
+123        <uses-library
+123-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:72:9-74:40
+124            android:name="org.apache.http.legacy"
+124-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:73:13-50
+125            android:required="false" />
+125-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:74:13-37
+126
+127        <activity
+127-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:76:9-83:20
+128            android:name="com.v5foradnroid.userapp.Start"
+128-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:77:13-34
+129            android:exported="true" >
+129-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:78:13-36
+130            <intent-filter>
+130-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:79:13-82:29
+131                <action android:name="android.intent.action.MAIN" />
+131-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:80:17-69
+131-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:80:25-66
+132
+133                <category android:name="android.intent.category.LAUNCHER" />
+133-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:81:17-77
+133-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:81:27-74
+134            </intent-filter>
+135        </activity>
+136        <activity
+136-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:84:9-87:43
+137            android:name="com.v5foradnroid.userapp.view.MainActivityc"
+137-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:85:13-47
+138            android:exported="true"
+138-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:86:13-36
+139            android:label="New Request" />
+139-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:87:13-40
+140        <activity
+140-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:88:9-91:42
+141            android:name="com.v5foradnroid.userapp.Myprofile"
+141-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:89:13-38
+142            android:exported="true"
+142-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:90:13-36
+143            android:label="My profile" />
+143-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:91:13-39
+144        <activity
+144-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:92:9-95:40
+145            android:name="com.v5foradnroid.userapp.Twostep"
+145-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:93:13-36
+146            android:exported="true"
+146-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:94:13-36
+147            android:label="Two step" />
+147-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:95:13-37
+148        <activity
+148-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:96:9-99:44
+149            android:name="com.v5foradnroid.userapp.Addpic"
+149-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:97:13-35
+150            android:exported="true"
+150-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:98:13-36
+151            android:label="Scan Id Card" />
+151-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:99:13-41
+152        <activity
+152-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:100:9-103:42
+153            android:name="com.v5foradnroid.userapp.Cropm"
+153-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:101:13-34
+154            android:exported="true"
+154-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:102:13-36
+155            android:label="Crop Image" />
+155-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:103:13-39
+156        <activity
+156-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:104:9-107:40
+157            android:name="com.v5foradnroid.userapp.Billpay"
+157-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:105:13-36
+158            android:exported="true"
+158-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:106:13-36
+159            android:label="Bill pay" />
+159-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:107:13-37
+160        <activity
+160-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:108:9-111:51
+161            android:name="com.v5foradnroid.userapp.New_support"
+161-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:109:13-40
+162            android:exported="true"
+162-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:110:13-36
+163            android:label="New Support Tricket" />
+163-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:111:13-48
+164        <activity
+164-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:112:9-115:47
+165            android:name="com.v5foradnroid.userapp.Tricket_main_read"
+165-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:113:13-46
+166            android:exported="true"
+166-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:114:13-36
+167            android:label="Support Tricket" />
+167-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:115:13-44
+168        <activity
+168-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:116:9-119:47
+169            android:name="com.v5foradnroid.userapp.Tricket_main"
+169-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:117:13-41
+170            android:exported="true"
+170-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:118:13-36
+171            android:label="Support Tricket" />
+171-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:119:13-44
+172        <activity
+172-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:120:9-123:46
+173            android:name="com.v5foradnroid.userapp.RegisterActivity"
+173-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:121:13-45
+174            android:exported="true"
+174-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:122:13-36
+175            android:label="Create Account" />
+175-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:123:13-43
+176        <activity
+176-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:124:9-127:44
+177            android:name="com.v5foradnroid.userapp.Welcome"
+177-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:125:13-36
+178            android:exported="true"
+178-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:126:13-36
+179            android:label="Service list" />
+179-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:127:13-41
+180        <activity
+180-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:128:9-131:45
+181            android:name="com.v5foradnroid.userapp.Banktransfer"
+181-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:129:13-41
+182            android:exported="true"
+182-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:130:13-36
+183            android:label="Bank Transfer" />
+183-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:131:13-42
+184        <activity
+184-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:132:9-134:43
+185            android:name="com.v5foradnroid.userapp.PinActivity"
+185-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:133:13-40
+186            android:label="Pin Confirm" />
+186-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:134:13-40
+187        <activity
+187-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:135:9-138:39
+188            android:name="com.v5foradnroid.userapp.Mainlist"
+188-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:136:13-37
+189            android:exported="true"
+189-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:137:13-36
+190            android:label="History" />
+190-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:138:13-36
+191        <activity
+191-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:139:9-142:44
+192            android:name="com.v5foradnroid.userapp.News"
+192-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:140:13-33
+193            android:exported="true"
+193-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:141:13-36
+194            android:label="Notice Board" />
+194-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:142:13-41
+195        <activity
+195-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:143:9-146:39
+196            android:name="com.v5foradnroid.userapp.web"
+196-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:144:13-32
+197            android:exported="true"
+197-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:145:13-36
+198            android:label="Welcome" />
+198-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:146:13-36
+199        <activity
+199-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:147:9-150:38
+200            android:name="com.v5foradnroid.userapp.Login_Activity"
+200-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:148:13-43
+201            android:exported="true"
+201-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:149:13-36
+202            android:label="Signin" />
+202-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:150:13-35
+203        <activity
+203-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:151:9-154:35
+204            android:name="com.v5foradnroid.userapp.pinver"
+204-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:152:13-35
+205            android:exported="true"
+205-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:153:13-36
+206            android:label="Pin" />
+206-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:154:13-32
+207        <activity
+207-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:155:9-158:43
+208            android:name="com.v5foradnroid.userapp.DisplayActivity"
+208-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:156:13-44
+209            android:exported="true"
+209-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:157:13-36
+210            android:label="New Request" />
+210-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:158:13-40
+211        <activity
+211-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:159:9-162:43
+212            android:name="com.v5foradnroid.userapp.DisplayActivitya"
+212-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:160:13-45
+213            android:exported="true"
+213-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:161:13-36
+214            android:label="New Request" />
+214-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:162:13-40
+215        <activity
+215-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:163:9-166:47
+216            android:name="com.v5foradnroid.userapp.Operator"
+216-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:164:13-37
+217            android:exported="true"
+217-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:165:13-36
+218            android:label="Select Operator" />
+218-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:166:13-44
+219        <activity
+219-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:167:9-170:44
+220            android:name="com.v5foradnroid.userapp.Addres"
+220-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:168:13-35
+221            android:exported="true"
+221-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:169:13-36
+222            android:label="Add reseller" />
+222-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:170:13-41
+223        <activity
+223-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:171:9-174:44
+224            android:name="com.v5foradnroid.userapp.Myreseller"
+224-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:172:13-39
+225            android:exported="true"
+225-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:173:13-36
+226            android:label="Add reseller" />
+226-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:174:13-41
+227        <activity
+227-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:175:9-178:40
+228            android:name="com.v5foradnroid.userapp.Develop"
+228-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:176:13-36
+229            android:exported="true"
+229-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:177:13-36
+230            android:label="About us" />
+230-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:178:13-37
+231        <activity
+231-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:179:9-182:42
+232            android:name="com.v5foradnroid.userapp.service_a"
+232-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:180:13-38
+233            android:exported="true"
+233-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:181:13-36
+234            android:label="Service us" />
+234-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:182:13-39
+235        <activity
+235-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:183:9-186:36
+236            android:name="com.v5foradnroid.userapp.Editres"
+236-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:184:13-36
+237            android:exported="true"
+237-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:185:13-36
+238            android:label="Edit" />
+238-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:186:13-33
+239        <activity
+239-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:187:9-190:39
+240            android:name="com.v5foradnroid.userapp.Payment"
+240-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:188:13-36
+241            android:exported="true"
+241-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:189:13-36
+242            android:label="Payment" />
+242-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:190:13-36
+243        <activity
+243-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:191:9-194:40
+244            android:name="com.v5foradnroid.userapp.Transfer"
+244-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:192:13-37
+245            android:exported="true"
+245-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:193:13-36
+246            android:label="Transfer" />
+246-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:194:13-37
+247        <activity
+247-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:195:9-198:40
+248            android:name="com.v5foradnroid.userapp.Smssend"
+248-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:196:13-36
+249            android:exported="true"
+249-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:197:13-36
+250            android:label="Send Sms" />
+250-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:198:13-37
+251        <activity
+251-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:199:9-202:39
+252            android:name="com.v5foradnroid.userapp.history_op"
+252-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:200:13-39
+253            android:exported="true"
+253-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:201:13-36
+254            android:label="History" />
+254-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:202:13-36
+255        <activity
+255-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:203:9-206:47
+256            android:name="com.v5foradnroid.userapp.Password"
+256-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:204:13-37
+257            android:exported="true"
+257-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:205:13-36
+258            android:label="Password Change" />
+258-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:206:13-44
+259        <activity
+259-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:207:9-210:42
+260            android:name="com.v5foradnroid.userapp.Pinc"
+260-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:208:13-33
+261            android:exported="true"
+261-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:209:13-36
+262            android:label="Pin change" />
+262-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:210:13-39
+263        <activity
+263-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:211:9-214:41
+264            android:name="com.v5foradnroid.userapp.mydevice"
+264-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:212:13-37
+265            android:exported="true"
+265-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:213:13-36
+266            android:label="My Device" />
+266-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:214:13-38
+267        <activity
+267-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:215:9-218:44
+268            android:name="com.v5foradnroid.userapp.makepay"
+268-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:216:13-36
+269            android:exported="true"
+269-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:217:13-36
+270            android:label="Make payment" />
+270-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:218:13-41
+271        <activity
+271-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:219:9-222:47
+272            android:name="com.v5foradnroid.userapp.Internet"
+272-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:220:13-37
+273            android:exported="true"
+273-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:221:13-36
+274            android:label="Internet Pakage" />
+274-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:222:13-44
+275        <activity
+275-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:223:9-226:44
+276            android:name="com.v5foradnroid.userapp.Payment_type"
+276-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:224:13-41
+277            android:exported="true"
+277-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:225:13-36
+278            android:label="Payment type" />
+278-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:226:13-41
+279        <activity
+279-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:227:9-230:43
+280            android:name="com.v5foradnroid.userapp.Dlock"
+280-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:228:13-34
+281            android:exported="true"
+281-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:229:13-36
+282            android:label="Device Lock" />
+282-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:230:13-40
+283        <activity
+283-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:231:9-233:40
+284            android:name="com.v5foradnroid.userapp.activities.ChangeLocationActivity"
+284-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:232:13-62
+285            android:exported="false" />
+285-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:233:13-37
+286
+287        <receiver
+287-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:235:9-243:20
+288            android:name="com.v5foradnroid.userapp.notification.FirebaseBroadcastReceiver"
+288-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:236:13-67
+289            android:exported="true"
+289-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:237:13-36
+290            android:permission="com.google.android.c2dm.permission.SEND" >
+290-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:238:13-73
+291            <intent-filter>
+291-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:239:13-242:29
+292                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+292-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:67:17-81
+292-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:67:25-78
+293
+294                <category android:name="com.ecomflexi.softwarelabbd" />
+294-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:241:17-72
+294-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:241:27-69
+295            </intent-filter>
+296        </receiver>
+297
+298        <provider
+298-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:245:9-249:51
+299            android:name="com.squareup.picasso.PicassoProvider"
+299-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:246:13-64
+300            android:authorities="com.v5foradnroid.userapp.com.squareup.picasso"
+300-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:247:13-80
+301            android:exported="false" />
+301-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:248:13-37
+302
+303        <receiver
+303-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:251:9-254:48
+304            android:name="com.onesignal.BootUpReceiver"
+304-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:252:13-56
+305            android:exported="true" />
+305-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:253:13-36
+306        <receiver
+306-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:255:9-258:48
+307            android:name="com.onesignal.UpgradeReceiver"
+307-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:256:13-57
+308            android:exported="true" />
+308-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:257:13-36
+309
+310        <activity android:name="com.v5foradnroid.userapp.sliderAdapter.WebActivity" />
+310-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:260:9-63
+310-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:260:19-60
+311        <activity android:name="com.v5foradnroid.userapp.sliderAdapter.AllSliderActivity" />
+311-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:261:9-69
+311-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:261:19-66
+312        <activity
+312-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:262:9-273:20
+313            android:name="com.v5foradnroid.userapp.activities.ActivitySplash"
+313-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:263:13-54
+314            android:exported="true"
+314-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:264:13-36
+315            android:label="@string/app_name" >
+315-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:265:13-45
+316
+317            <!--
+318             <intent-filter>
+319                 <action android:name="android.intent.action.MAIN" />
+320                 <category android:name="android.intent.category.LAUNCHER" />
+321             </intent-filter>
+322            -->
+323        </activity>
+324        <activity
+324-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:274:9-283:20
+325            android:name="com.v5foradnroid.userapp.activities.StoreMainAc"
+325-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:275:13-51
+326            android:exported="true"
+326-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:276:13-36
+327            android:label="@string/app_name" >
+327-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:277:13-45
+328            <intent-filter>
+328-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:278:13-282:29
+329                <action android:name="android.intent.action.MAIN" />
+329-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:80:17-69
+329-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:80:25-66
+330
+331                <category android:name="android.intent.category.DEFAULT" />
+331-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:281:17-76
+331-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:281:27-73
+332            </intent-filter>
+333        </activity>
+334        <activity
+334-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:284:9-286:52
+335            android:name="com.v5foradnroid.userapp.activities.ActivityCart"
+335-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:285:13-52
+336            android:screenOrientation="portrait" />
+336-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:286:13-49
+337        <activity
+337-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:287:9-289:52
+338            android:name="com.v5foradnroid.userapp.activities.ActivityProduct"
+338-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:288:13-55
+339            android:screenOrientation="portrait" />
+339-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:289:13-49
+340        <activity
+340-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:290:9-292:52
+341            android:name="com.v5foradnroid.userapp.activities.ActivityProductDetail"
+341-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:291:13-61
+342            android:screenOrientation="portrait" />
+342-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:292:13-49
+343        <activity
+343-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:293:9-295:52
+344            android:name="com.v5foradnroid.userapp.activities.ActivityCheckout"
+344-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:294:13-56
+345            android:screenOrientation="portrait" />
+345-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:295:13-49
+346        <activity
+346-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:296:9-298:52
+347            android:name="com.v5foradnroid.userapp.activities.ActivityHistory"
+347-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:297:13-55
+348            android:screenOrientation="portrait" />
+348-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:298:13-49
+349        <activity
+349-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:299:9-301:52
+350            android:name="com.v5foradnroid.userapp.activities.ActivityHelp"
+350-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:300:13-52
+351            android:screenOrientation="portrait" />
+351-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:301:13-49
+352        <activity
+352-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:302:9-304:52
+353            android:name="com.v5foradnroid.userapp.activities.ActivityImageDetail"
+353-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:303:13-59
+354            android:screenOrientation="portrait" />
+354-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:304:13-49
+355        <activity
+355-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:305:9-307:52
+356            android:name="com.v5foradnroid.userapp.activities.ActivityNotificationDetail"
+356-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:306:13-66
+357            android:screenOrientation="portrait" />
+357-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:307:13-49
+358        <activity
+358-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:308:9-311:43
+359            android:name="com.v5foradnroid.userapp.activities.ActivitySettings"
+359-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:309:13-56
+360            android:screenOrientation="portrait"
+360-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:310:13-49
+361            android:theme="@style/Pref" /> <!-- fcm -->
+361-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:311:13-40
+362        <service
+362-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:312:9-318:19
+363            android:name="com.v5foradnroid.userapp.notification.MyFirebaseMessageService"
+363-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:313:13-66
+364            android:exported="true" >
+364-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:314:13-36
+365            <intent-filter>
+365-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:315:13-317:29
+366                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+366-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:316:17-78
+366-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:316:25-75
+367            </intent-filter>
+368        </service>
+369
+370        <activity
+370-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:320:9-323:48
+371            android:name="com.v5foradnroid.userapp.notification.NotificationServiceExtension"
+371-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:321:13-70
+372            android:exported="true" />
+372-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:322:13-36
+373        <activity
+373-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:324:9-326:40
+374            android:name="com.v5foradnroid.userapp.post.DisplayPostsActivity"
+374-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:325:13-54
+375            android:exported="false" />
+375-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:326:13-37
+376        <activity
+376-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:327:9-329:40
+377            android:name="com.v5foradnroid.userapp.post.UserCategory"
+377-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:328:13-46
+378            android:exported="false" />
+378-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:329:13-37
+379        <activity
+379-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:330:9-332:40
+380            android:name="com.v5foradnroid.userapp.post.CategoryActivity"
+380-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:331:13-50
+381            android:exported="false" />
+381-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:332:13-37
+382        <activity
+382-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:333:9-335:40
+383            android:name="com.v5foradnroid.userapp.post.UpdatePostActivity"
+383-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:334:13-52
+384            android:exported="false" />
+384-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:335:13-37
+385        <activity
+385-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:336:9-338:40
+386            android:name="com.v5foradnroid.userapp.post.DetailActivity"
+386-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:337:13-48
+387            android:exported="false" />
+387-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:338:13-37
+388        <activity
+388-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:339:9-341:40
+389            android:name="com.v5foradnroid.userapp.post.GetPosts"
+389-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:340:13-42
+390            android:exported="false" />
+390-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:341:13-37
+391        <activity
+391-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:342:9-344:40
+392            android:name="com.v5foradnroid.userapp.post.UploadPost"
+392-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:343:13-44
+393            android:exported="false" />
+393-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:344:13-37
+394
+395        <provider
+396            android:name="androidx.core.content.FileProvider"
+396-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:48:13-62
+397            android:authorities="com.v5foradnroid.userapp.provider"
+397-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:49:13-72
+398            android:exported="false"
+398-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:50:13-37
+399            android:grantUriPermissions="true" >
+399-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:51:13-47
+400            <meta-data
+400-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:52:13-55:58
+401                android:name="android.support.FILE_PROVIDER_PATHS"
+401-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:53:17-67
+402                android:resource="@xml/provider_paths" />
+402-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:55:17-55
+403        </provider>
+404
+405        <activity
+405-->[com.karumi:dexter:6.2.3] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ca3b492a8cff0f6a78d96ff74dee0050\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+406            android:name="com.karumi.dexter.DexterActivity"
+406-->[com.karumi:dexter:6.2.3] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ca3b492a8cff0f6a78d96ff74dee0050\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:28:13-60
+407            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+407-->[com.karumi:dexter:6.2.3] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ca3b492a8cff0f6a78d96ff74dee0050\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:29:13-69
+408
+409        <receiver
+409-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:49:9-60:20
+410            android:name="com.onesignal.notifications.receivers.FCMBroadcastReceiver"
+410-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:50:13-86
+411            android:exported="true"
+411-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:51:13-36
+412            android:permission="com.google.android.c2dm.permission.SEND" >
+412-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:52:13-73
+413
+414            <!-- High priority so OneSignal payloads can be filtered from other FCM receivers -->
+415            <intent-filter android:priority="999" >
+415-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:66:13-69:29
+416                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+416-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:67:17-81
+416-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:67:25-78
+417
+418                <category android:name="com.v5foradnroid.userapp" />
+418-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:68:27-58
+419            </intent-filter>
+420        </receiver>
+421
+422        <service
+422-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:62:9-68:19
+423            android:name="com.onesignal.notifications.services.HmsMessageServiceOneSignal"
+423-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:63:13-91
+424            android:exported="false" >
+424-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:64:13-37
+425            <intent-filter>
+425-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:65:13-67:29
+426                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+426-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:66:17-81
+426-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:66:25-78
+427            </intent-filter>
+428        </service>
+429
+430        <activity
+430-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:70:9-78:20
+431            android:name="com.onesignal.notifications.activities.NotificationOpenedActivityHMS"
+431-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:71:13-96
+432            android:exported="true"
+432-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:72:13-36
+433            android:noHistory="true"
+433-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:73:13-37
+434            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+434-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:74:13-72
+435            <intent-filter>
+435-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:75:13-77:29
+436                <action android:name="android.intent.action.VIEW" />
+436-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:76:17-69
+436-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:76:25-66
+437            </intent-filter>
+438        </activity>
+439
+440        <receiver
+440-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:80:9-82:39
+441            android:name="com.onesignal.notifications.receivers.NotificationDismissReceiver"
+441-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:81:13-93
+442            android:exported="true" />
+442-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:82:13-36
+443        <receiver
+443-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:83:9-90:20
+444            android:name="com.onesignal.notifications.receivers.BootUpReceiver"
+444-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:84:13-80
+445            android:exported="true" >
+445-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:85:13-36
+446            <intent-filter>
+446-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:86:13-89:29
+447                <action android:name="android.intent.action.BOOT_COMPLETED" />
+447-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:87:17-79
+447-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:87:25-76
+448                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+448-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:88:17-82
+448-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:88:25-79
+449            </intent-filter>
+450        </receiver>
+451        <receiver
+451-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:91:9-97:20
+452            android:name="com.onesignal.notifications.receivers.UpgradeReceiver"
+452-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:92:13-81
+453            android:exported="true" >
+453-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:93:13-36
+454            <intent-filter>
+454-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:94:13-96:29
+455                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+455-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:95:17-84
+455-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:95:25-81
+456            </intent-filter>
+457        </receiver>
+458
+459        <activity
+459-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:99:9-105:75
+460            android:name="com.onesignal.notifications.activities.NotificationOpenedActivity"
+460-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:100:13-93
+461            android:excludeFromRecents="true"
+461-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:101:13-46
+462            android:exported="true"
+462-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:102:13-36
+463            android:noHistory="true"
+463-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:103:13-37
+464            android:taskAffinity=""
+464-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:104:13-36
+465            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+465-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:105:13-72
+466        <activity
+466-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:106:9-111:75
+467            android:name="com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder"
+467-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:107:13-110
+468            android:excludeFromRecents="true"
+468-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:108:13-46
+469            android:exported="true"
+469-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:109:13-36
+470            android:noHistory="true"
+470-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:110:13-37
+471            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+471-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:111:13-72
+472
+473        <service
+473-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:13:9-16:43
+474            android:name="com.onesignal.core.services.SyncService"
+474-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:14:13-67
+475            android:exported="false"
+475-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:15:13-37
+476            android:stopWithTask="true" />
+476-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:16:13-40
+477        <service
+477-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:17:9-20:72
+478            android:name="com.onesignal.core.services.SyncJobService"
+478-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:18:13-70
+479            android:exported="false"
+479-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:19:13-37
+480            android:permission="android.permission.BIND_JOB_SERVICE" />
+480-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:20:13-69
+481
+482        <activity
+482-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:22:9-25:75
+483            android:name="com.onesignal.core.activities.PermissionsActivity"
+483-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:23:13-77
+484            android:exported="false"
+484-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:24:13-37
+485            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+485-->[com.onesignal:core:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\AndroidManifest.xml:25:13-72
+486
+487        <service
+487-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\875c5d3636df58fb873205a39475a26e\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
+488            android:name="com.google.firebase.components.ComponentDiscoveryService"
+488-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\875c5d3636df58fb873205a39475a26e\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:27:13-84
+489            android:directBootAware="true"
+489-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+490            android:exported="false" >
+490-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\875c5d3636df58fb873205a39475a26e\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:28:13-37
+491            <meta-data
+491-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\875c5d3636df58fb873205a39475a26e\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
+492                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+492-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\875c5d3636df58fb873205a39475a26e\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:30:17-120
+493                android:value="com.google.firebase.components.ComponentRegistrar" />
+493-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\875c5d3636df58fb873205a39475a26e\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:31:17-82
+494            <meta-data
+494-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\875c5d3636df58fb873205a39475a26e\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:32:13-34:85
+495                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+495-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\875c5d3636df58fb873205a39475a26e\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:33:17-109
+496                android:value="com.google.firebase.components.ComponentRegistrar" />
+496-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\875c5d3636df58fb873205a39475a26e\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:34:17-82
+497            <meta-data
+497-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0bf77768df3317cc5a2653ba7d97a604\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+498                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+498-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0bf77768df3317cc5a2653ba7d97a604\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+499                android:value="com.google.firebase.components.ComponentRegistrar" />
+499-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0bf77768df3317cc5a2653ba7d97a604\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+500            <meta-data
+500-->[com.google.firebase:firebase-ml-vision:24.1.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9a3b824b03899ab8970a2485bbc4fe0a\transformed\jetified-firebase-ml-vision-24.1.0\AndroidManifest.xml:12:13-14:85
+501                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+501-->[com.google.firebase:firebase-ml-vision:24.1.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9a3b824b03899ab8970a2485bbc4fe0a\transformed\jetified-firebase-ml-vision-24.1.0\AndroidManifest.xml:13:17-108
+502                android:value="com.google.firebase.components.ComponentRegistrar" />
+502-->[com.google.firebase:firebase-ml-vision:24.1.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9a3b824b03899ab8970a2485bbc4fe0a\transformed\jetified-firebase-ml-vision-24.1.0\AndroidManifest.xml:14:17-82
+503            <meta-data
+503-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:57:13-59:85
+504                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+504-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:58:17-122
+505                android:value="com.google.firebase.components.ComponentRegistrar" />
+505-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:59:17-82
+506            <meta-data
+506-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:60:13-62:85
+507                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+507-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:61:17-119
+508                android:value="com.google.firebase.components.ComponentRegistrar" />
+508-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:62:17-82
+509            <meta-data
+509-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\bbcbee02cd0ff9d0a0aa9d0d01ba4502\transformed\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:11:13-13:85
+510                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+510-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\bbcbee02cd0ff9d0a0aa9d0d01ba4502\transformed\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:12:17-117
+511                android:value="com.google.firebase.components.ComponentRegistrar" />
+511-->[com.google.firebase:firebase-ml-common:22.1.2] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\bbcbee02cd0ff9d0a0aa9d0d01ba4502\transformed\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:13:17-82
+512            <meta-data
+512-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\186f0fcb1b7c4e66d73cc4538f3825c6\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+513                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+513-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\186f0fcb1b7c4e66d73cc4538f3825c6\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+514                android:value="com.google.firebase.components.ComponentRegistrar" />
+514-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\186f0fcb1b7c4e66d73cc4538f3825c6\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+515            <meta-data
+515-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\186f0fcb1b7c4e66d73cc4538f3825c6\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+516                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+516-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\186f0fcb1b7c4e66d73cc4538f3825c6\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+517                android:value="com.google.firebase.components.ComponentRegistrar" />
+517-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\186f0fcb1b7c4e66d73cc4538f3825c6\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+518            <meta-data
+518-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\c6f3fa3deabfc1a961fcb5b1a8220823\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+519                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+519-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\c6f3fa3deabfc1a961fcb5b1a8220823\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+520                android:value="com.google.firebase.components.ComponentRegistrar" />
+520-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\c6f3fa3deabfc1a961fcb5b1a8220823\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+521            <meta-data
+521-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+522                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+522-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+523                android:value="com.google.firebase.components.ComponentRegistrar" />
+523-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+524            <meta-data
+524-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8792366df7e3cd8abeec39a0ef99cb5c\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+525                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+525-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8792366df7e3cd8abeec39a0ef99cb5c\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+526                android:value="com.google.firebase.components.ComponentRegistrar" />
+526-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8792366df7e3cd8abeec39a0ef99cb5c\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+527        </service>
+528
+529        <receiver
+529-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:29:9-40:20
+530            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+530-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:30:13-78
+531            android:exported="true"
+531-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:31:13-36
+532            android:permission="com.google.android.c2dm.permission.SEND" >
+532-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:32:13-73
+533            <intent-filter>
+533-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:33:13-35:29
+534                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+534-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:67:17-81
+534-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:67:25-78
+535            </intent-filter>
+536
+537            <meta-data
+537-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:37:13-39:40
+538                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+538-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:38:17-92
+539                android:value="true" />
+539-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:39:17-37
+540        </receiver>
+541        <!--
+542             FirebaseMessagingService performs security checks at runtime,
+543             but set to not exported to explicitly avoid allowing another app to call it.
+544        -->
+545        <service
+545-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:46:9-53:19
+546            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+546-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:47:13-82
+547            android:directBootAware="true"
+547-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:48:13-43
+548            android:exported="false" >
+548-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:49:13-37
+549            <intent-filter android:priority="-500" >
+549-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:315:13-317:29
+550                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+550-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:316:17-78
+550-->G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\AndroidManifest.xml:316:25-75
+551            </intent-filter>
+552        </service>
+553
+554        <provider
+554-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+555            android:name="com.google.firebase.provider.FirebaseInitProvider"
+555-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+556            android:authorities="com.v5foradnroid.userapp.firebaseinitprovider"
+556-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+557            android:directBootAware="true"
+557-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+558            android:exported="false"
+558-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+559            android:initOrder="100" />
+559-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+560
+561        <activity
+561-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\2b58c6cfa834dd73bbc88a25b495d9da\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+562            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+562-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\2b58c6cfa834dd73bbc88a25b495d9da\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+563            android:exported="false"
+563-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\2b58c6cfa834dd73bbc88a25b495d9da\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+564            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+564-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\2b58c6cfa834dd73bbc88a25b495d9da\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+565
+566        <meta-data
+566-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f1c79421cec880523a900f44a21b11b2\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+567            android:name="com.google.android.gms.version"
+567-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f1c79421cec880523a900f44a21b11b2\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+568            android:value="@integer/google_play_services_version" />
+568-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f1c79421cec880523a900f44a21b11b2\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+569
+570        <provider
+570-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8bcd6cb98f2b11ce394792419b86cbce\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+571            android:name="androidx.startup.InitializationProvider"
+571-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8bcd6cb98f2b11ce394792419b86cbce\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+572            android:authorities="com.v5foradnroid.userapp.androidx-startup"
+572-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8bcd6cb98f2b11ce394792419b86cbce\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+573            android:exported="false" >
+573-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8bcd6cb98f2b11ce394792419b86cbce\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+574            <meta-data
+574-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8bcd6cb98f2b11ce394792419b86cbce\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+575                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+575-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8bcd6cb98f2b11ce394792419b86cbce\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+576                android:value="androidx.startup" />
+576-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8bcd6cb98f2b11ce394792419b86cbce\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+577            <meta-data
+577-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+578                android:name="androidx.work.WorkManagerInitializer"
+578-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+579                android:value="androidx.startup" />
+579-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+580            <meta-data
+580-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\b5535c37ac458addc42c6b8ad80c33f6\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+581                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+581-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\b5535c37ac458addc42c6b8ad80c33f6\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+582                android:value="androidx.startup" />
+582-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\b5535c37ac458addc42c6b8ad80c33f6\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+583            <meta-data
+583-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+584                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+584-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+585                android:value="androidx.startup" />
+585-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+586        </provider>
+587
+588        <service
+588-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+589            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+589-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+590            android:directBootAware="false"
+590-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+591            android:enabled="@bool/enable_system_alarm_service_default"
+591-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+592            android:exported="false" />
+592-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+593        <service
+593-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+594            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+594-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+595            android:directBootAware="false"
+595-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+596            android:enabled="@bool/enable_system_job_service_default"
+596-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+597            android:exported="true"
+597-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+598            android:permission="android.permission.BIND_JOB_SERVICE" />
+598-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+599        <service
+599-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+600            android:name="androidx.work.impl.foreground.SystemForegroundService"
+600-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+601            android:directBootAware="false"
+601-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+602            android:enabled="@bool/enable_system_foreground_service_default"
+602-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+603            android:exported="false" />
+603-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+604
+605        <receiver
+605-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+606            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+606-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+607            android:directBootAware="false"
+607-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+608            android:enabled="true"
+608-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+609            android:exported="false" />
+609-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+610        <receiver
+610-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+611            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+611-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+612            android:directBootAware="false"
+612-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+613            android:enabled="false"
+613-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+614            android:exported="false" >
+614-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+615            <intent-filter>
+615-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+616                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+616-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+616-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+617                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+617-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+617-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+618            </intent-filter>
+619        </receiver>
+620        <receiver
+620-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+621            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+621-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+622            android:directBootAware="false"
+622-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+623            android:enabled="false"
+623-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+624            android:exported="false" >
+624-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+625            <intent-filter>
+625-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+626                <action android:name="android.intent.action.BATTERY_OKAY" />
+626-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+626-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+627                <action android:name="android.intent.action.BATTERY_LOW" />
+627-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+627-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+628            </intent-filter>
+629        </receiver>
+630        <receiver
+630-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+631            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+631-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+632            android:directBootAware="false"
+632-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+633            android:enabled="false"
+633-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+634            android:exported="false" >
+634-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+635            <intent-filter>
+635-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+636                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+636-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+636-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+637                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+637-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+637-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+638            </intent-filter>
+639        </receiver>
+640        <receiver
+640-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+641            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+641-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+642            android:directBootAware="false"
+642-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+643            android:enabled="false"
+643-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+644            android:exported="false" >
+644-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+645            <intent-filter>
+645-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+646                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+646-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+646-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+647            </intent-filter>
+648        </receiver>
+649        <receiver
+649-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+650            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+650-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+651            android:directBootAware="false"
+651-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+652            android:enabled="false"
+652-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+653            android:exported="false" >
+653-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+654            <intent-filter>
+654-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+655                <action android:name="android.intent.action.BOOT_COMPLETED" />
+655-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:87:17-79
+655-->[com.onesignal:notifications:5.0.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\AndroidManifest.xml:87:25-76
+656                <action android:name="android.intent.action.TIME_SET" />
+656-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+656-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+657                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+657-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+657-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+658            </intent-filter>
+659        </receiver>
+660        <receiver
+660-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+661            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+661-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+662            android:directBootAware="false"
+662-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+663            android:enabled="@bool/enable_system_alarm_service_default"
+663-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+664            android:exported="false" >
+664-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+665            <intent-filter>
+665-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+666                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+666-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+666-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+667            </intent-filter>
+668        </receiver>
+669        <receiver
+669-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+670            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+670-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+671            android:directBootAware="false"
+671-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+672            android:enabled="true"
+672-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+673            android:exported="true"
+673-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+674            android:permission="android.permission.DUMP" >
+674-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+675            <intent-filter>
+675-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+676                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+676-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+676-->[androidx.work:work-runtime:2.7.1] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+677            </intent-filter>
+678        </receiver>
+679
+680        <service
+680-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\a71c73e24c2ede6cabdd2e17df1e2317\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+681            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+681-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\a71c73e24c2ede6cabdd2e17df1e2317\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+682            android:exported="false" >
+682-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\a71c73e24c2ede6cabdd2e17df1e2317\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+683            <meta-data
+683-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\a71c73e24c2ede6cabdd2e17df1e2317\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+684                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+684-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\a71c73e24c2ede6cabdd2e17df1e2317\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+685                android:value="cct" />
+685-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\a71c73e24c2ede6cabdd2e17df1e2317\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+686        </service>
+687        <service
+687-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e6a2339a414c69b8b6193486d849bc7f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+688            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+688-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e6a2339a414c69b8b6193486d849bc7f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+689            android:exported="false"
+689-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e6a2339a414c69b8b6193486d849bc7f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+690            android:permission="android.permission.BIND_JOB_SERVICE" >
+690-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e6a2339a414c69b8b6193486d849bc7f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+691        </service>
+692
+693        <receiver
+693-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e6a2339a414c69b8b6193486d849bc7f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+694            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+694-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e6a2339a414c69b8b6193486d849bc7f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+695            android:exported="false" />
+695-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e6a2339a414c69b8b6193486d849bc7f\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+696        <receiver
+696-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+697            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+697-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+698            android:directBootAware="false"
+698-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+699            android:enabled="true"
+699-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+700            android:exported="true"
+700-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+701            android:permission="android.permission.DUMP" >
+701-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+702            <intent-filter>
+702-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+703                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+703-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+703-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+704            </intent-filter>
+705            <intent-filter>
+705-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+706                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+706-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+706-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+707            </intent-filter>
+708            <intent-filter>
+708-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+709                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+709-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+709-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+710            </intent-filter>
+711            <intent-filter>
+711-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+712                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+712-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+712-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+713            </intent-filter>
+714        </receiver>
+715
+716        <service
+716-->[androidx.room:room-runtime:2.2.5] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\bb7e9a2908fcd207c697a03b23b40c9f\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+717            android:name="androidx.room.MultiInstanceInvalidationService"
+717-->[androidx.room:room-runtime:2.2.5] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\bb7e9a2908fcd207c697a03b23b40c9f\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+718            android:directBootAware="true"
+718-->[androidx.room:room-runtime:2.2.5] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\bb7e9a2908fcd207c697a03b23b40c9f\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+719            android:exported="false" />
+719-->[androidx.room:room-runtime:2.2.5] C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\bb7e9a2908fcd207c697a03b23b40c9f\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+720    </application>
+721
+722</manifest>

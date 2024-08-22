@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.v5foradnroid.userapp-mergeDebugResources-57:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Mohammed Foysal\\.gradle\\caches\\transforms-3\\aef2b16f04528f8fb6c9944dc9669404\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}

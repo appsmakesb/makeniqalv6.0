@@ -1,0 +1,63 @@
+com.v5foradnroid.userapp-jetified-lifecycle-viewmodel-savedstate-2.6.2-0 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\00d512bb82a0c77a9056ede6e475e8dd\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.v5foradnroid.userapp-material-1.12.0-1 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0164cf7afbff857f21d99004bc84233e\transformed\material-1.12.0\res
+com.v5foradnroid.userapp-jetified-emoji2-views-helper-1.2.0-2 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\063f28d0676e7c2dcfd44128accb483a\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.v5foradnroid.userapp-biometric-1.1.0-3 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0704af685a6dd6c2ba8143ba18540c12\transformed\biometric-1.1.0\res
+com.v5foradnroid.userapp-work-runtime-ktx-2.7.1-4 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\072cf7b6fba37ccb1197f6b5a768d36a\transformed\work-runtime-ktx-2.7.1\res
+com.v5foradnroid.userapp-jetified-circleimageview-3.1.0-5 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\0ed4fb488777bbf839a55f4e6009d223\transformed\jetified-circleimageview-3.1.0\res
+com.v5foradnroid.userapp-jetified-location-5.0.0-6 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\1279e83b38c9b7694833148aa72a68ac\transformed\jetified-location-5.0.0\res
+com.v5foradnroid.userapp-jetified-lottie-5.2.0-7 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\136e3b24128477f4dbc2addcd92133ca\transformed\jetified-lottie-5.2.0\res
+com.v5foradnroid.userapp-jetified-viewpager2-1.0.0-8 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\138566d0f5960a875d2aea24c7e7b85b\transformed\jetified-viewpager2-1.0.0\res
+com.v5foradnroid.userapp-lifecycle-runtime-2.6.2-9 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\17da13d47ac2dd073ba96dea8daef2c9\transformed\lifecycle-runtime-2.6.2\res
+com.v5foradnroid.userapp-jetified-core-5.0.0-10 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\180fd9baa45a32b1806a817f9946b7e9\transformed\jetified-core-5.0.0\res
+com.v5foradnroid.userapp-jetified-in-app-messages-5.0.0-11 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\1a1be87cb9cee73eb28a9a9d763cf757\transformed\jetified-in-app-messages-5.0.0\res
+com.v5foradnroid.userapp-jetified-core-ktx-1.13.0-12 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\1b73e2ba3b0eb28a1b2b6066cad9e86b\transformed\jetified-core-ktx-1.13.0\res
+com.v5foradnroid.userapp-jetified-Android-SpinKit-1.4.0-13 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\1f12a5164429404f931453ec12e16237\transformed\jetified-Android-SpinKit-1.4.0\res
+com.v5foradnroid.userapp-jetified-savedstate-1.2.1-14 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\1f1401f11a179d1d9eaef7b2acce0fef\transformed\jetified-savedstate-1.2.1\res
+com.v5foradnroid.userapp-jetified-notifications-5.0.0-15 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\21e00470ed039def4307a09a6021f7b1\transformed\jetified-notifications-5.0.0\res
+com.v5foradnroid.userapp-jetified-play-services-base-18.5.0-16 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\2b58c6cfa834dd73bbc88a25b495d9da\transformed\jetified-play-services-base-18.5.0\res
+com.v5foradnroid.userapp-jetified-startup-runtime-1.1.1-17 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\2ef8e9028e93f88f2774992a545b0507\transformed\jetified-startup-runtime-1.1.1\res
+com.v5foradnroid.userapp-swiperefreshlayout-1.1.0-18 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\2f66220d01ea13d8ce48a6773633134c\transformed\swiperefreshlayout-1.1.0\res
+com.v5foradnroid.userapp-jetified-lifecycle-service-2.6.2-19 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\2fbe2deb9ee283e2e2c78712a6ea8f82\transformed\jetified-lifecycle-service-2.6.2\res
+com.v5foradnroid.userapp-jetified-library-1.4.0-20 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\32efb37ca30b0adc3883051214591b4e\transformed\jetified-library-1.4.0\res
+com.v5foradnroid.userapp-coordinatorlayout-1.1.0-21 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\3d6ed0fc46781611f2039b17ece32e67\transformed\coordinatorlayout-1.1.0\res
+com.v5foradnroid.userapp-databinding-runtime-7.4.2-22 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\40e2c60f4c01a43932837547009cf215\transformed\databinding-runtime-7.4.2\res
+com.v5foradnroid.userapp-fragment-1.3.6-23 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\4325423f9e5698ab4d52492f26cbbaa0\transformed\fragment-1.3.6\res
+com.v5foradnroid.userapp-lifecycle-livedata-core-2.6.2-24 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\4c79369892cd3396f0b41a9e060cef6f\transformed\lifecycle-livedata-core-2.6.2\res
+com.v5foradnroid.userapp-jetified-roundedimageview-2.3.0-25 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\4dc5a0151c30bc8478cc1a7aebe44499\transformed\jetified-roundedimageview-2.3.0\res
+com.v5foradnroid.userapp-media-1.0.0-26 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\5534bb6a3d457f5449e34183d5d40010\transformed\media-1.0.0\res
+com.v5foradnroid.userapp-jetified-lifecycle-runtime-ktx-2.6.2-27 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\5789d6679fb7acd05bdc69282b95e9ed\transformed\jetified-lifecycle-runtime-ktx-2.6.2\res
+com.v5foradnroid.userapp-jetified-firebase-messaging-24.0.0-28 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\61e45b6ddde3795df2be40d54968cb9a\transformed\jetified-firebase-messaging-24.0.0\res
+com.v5foradnroid.userapp-jetified-material-ripple-1.0.2-29 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\62d47098d8d9ce12215d14dcb7597a7c\transformed\jetified-material-ripple-1.0.2\res
+com.v5foradnroid.userapp-constraintlayout-2.1.4-30 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\7089c0254ce8fecd1a06dfe586b0ecd5\transformed\constraintlayout-2.1.4\res
+com.v5foradnroid.userapp-transition-1.5.0-31 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\730a67d7ca395704d8565a00300a25f8\transformed\transition-1.5.0\res
+com.v5foradnroid.userapp-drawerlayout-1.1.1-32 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\802eba651b8fe8b1533d3dda54fcab10\transformed\drawerlayout-1.1.1\res
+com.v5foradnroid.userapp-lifecycle-livedata-2.6.2-33 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\899a2bf6ac1f8ed5056c0c9c2534b386\transformed\lifecycle-livedata-2.6.2\res
+com.v5foradnroid.userapp-jetified-emoji2-1.2.0-34 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\8bcd6cb98f2b11ce394792419b86cbce\transformed\jetified-emoji2-1.2.0\res
+com.v5foradnroid.userapp-jetified-annotation-experimental-1.4.0-35 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\92205f67814b2c9b768afa8f90b43ed2\transformed\jetified-annotation-experimental-1.4.0\res
+com.v5foradnroid.userapp-jetified-fab-1.6.4-36 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\93b527f29e1423525f9ce72f7049ba66\transformed\jetified-fab-1.6.4\res
+com.v5foradnroid.userapp-jetified-firebase-common-21.0.0-37 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\9e168ca65b147d6edc35b1fbc5718a35\transformed\jetified-firebase-common-21.0.0\res
+com.v5foradnroid.userapp-jetified-appcompat-resources-1.6.1-38 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\a0de850cd2eae7d7f3ea88ba3ad4ccbf\transformed\jetified-appcompat-resources-1.6.1\res
+com.v5foradnroid.userapp-databinding-adapters-7.4.2-39 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\a15a46b0835430281ae8db3c4daed93a\transformed\databinding-adapters-7.4.2\res
+com.v5foradnroid.userapp-appcompat-1.6.1-40 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\aef2b16f04528f8fb6c9944dc9669404\transformed\appcompat-1.6.1\res
+com.v5foradnroid.userapp-core-runtime-2.2.0-41 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\b2f429fc72052c6f397fc6a5d3d58223\transformed\core-runtime-2.2.0\res
+com.v5foradnroid.userapp-jetified-lifecycle-process-2.6.2-42 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\b5535c37ac458addc42c6b8ad80c33f6\transformed\jetified-lifecycle-process-2.6.2\res
+com.v5foradnroid.userapp-jetified-glide-4.16.0-43 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\c412d44bcc17ad7cca30b75c180df2d5\transformed\jetified-glide-4.16.0\res
+com.v5foradnroid.userapp-jetified-dexter-6.2.3-44 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ca3b492a8cff0f6a78d96ff74dee0050\transformed\jetified-dexter-6.2.3\res
+com.v5foradnroid.userapp-browser-1.3.0-45 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\cc5bbaf677fd9019e62fcc03164b2af0\transformed\browser-1.3.0\res
+com.v5foradnroid.userapp-jetified-profileinstaller-1.3.0-46 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\d6f5f0365b03cf5f04012b4daca8d43e\transformed\jetified-profileinstaller-1.3.0\res
+com.v5foradnroid.userapp-recyclerview-1.1.0-47 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e4b16566971d76971e73c8702adc2dc3\transformed\recyclerview-1.1.0\res
+com.v5foradnroid.userapp-jetified-activity-1.8.0-48 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\e5fb4e37a71de7338cfe5aef1842f806\transformed\jetified-activity-1.8.0\res
+com.v5foradnroid.userapp-work-runtime-2.7.1-49 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\ec682be1feb1d4fcf7434a5e37300b55\transformed\work-runtime-2.7.1\res
+com.v5foradnroid.userapp-jetified-play-services-basement-18.4.0-50 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f1c79421cec880523a900f44a21b11b2\transformed\jetified-play-services-basement-18.4.0\res
+com.v5foradnroid.userapp-cardview-1.0.0-51 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f7e93c2e5744bb73dfd1d8788a40521e\transformed\cardview-1.0.0\res
+com.v5foradnroid.userapp-core-1.13.0-52 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\f98f30e0714dd0886893f6569a3d92a9\transformed\core-1.13.0\res
+com.v5foradnroid.userapp-lifecycle-viewmodel-2.6.2-53 C:\Users\Mohammed Foysal\.gradle\caches\transforms-3\fa88446b81bc8501c469257a07aad98b\transformed\lifecycle-viewmodel-2.6.2\res
+com.v5foradnroid.userapp-pngs-54 G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\build\generated\res\pngs\debug
+com.v5foradnroid.userapp-resValues-55 G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\build\generated\res\resValues\debug
+com.v5foradnroid.userapp-rs-56 G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\build\generated\res\rs\debug
+com.v5foradnroid.userapp-packageDebugResources-57 G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.v5foradnroid.userapp-packageDebugResources-58 G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.v5foradnroid.userapp-merged_res-59 G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\build\intermediates\merged_res\debug
+com.v5foradnroid.userapp-debug-60 G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\debug\res
+com.v5foradnroid.userapp-main-61 G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\app\src\main\res
+com.v5foradnroid.userapp-packaged_res-62 G:\Download\Project Sabbir Vai\makeniqalv5-withoutjcenter\multilibrarybyft\build\intermediates\packaged_res\debug
